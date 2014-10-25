@@ -1,10 +1,10 @@
 
 setwd("C:/courseproject")
 test_subj  <- read.table("test/subject_test.txt")
-test_X <- read.table("test/X_test.txt")
+#test_X <- read.table("test/X_test.txt")
 test_y <- read.table("test/y_test.txt") 
 train_subj <- read.table("train/subject_train.txt")
-train_X <- read.table("train/X_train.txt")
+#train_X <- read.table("train/X_train.txt")
 train_y <- read.table("train/y_train.txt") 
 acti_labels <- read.table("activity_labels.txt")
 colnames(acti_labels) <- c("activity","act_names")

@@ -2,11 +2,11 @@
 
 ===================<br>
 <br>
-dataframe name:   df<br>
+##dataframe name:   df<br>
 <br>
 rows:<br>
 =====<br>
-subject<br>
+#subject<br>
 ...type:int........subject code  between 1 and 30<br><br>
 activity<br>
 ...type:int........activity code: 1,2,3,4,5,6<br><br>

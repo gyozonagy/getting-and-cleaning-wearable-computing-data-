@@ -14,17 +14,18 @@ df1 --  test1 & train1<br>
 df9 --  test9 & train9<br>
 ### calculating means on measurements
 m1,..m9  <- contains the means of 128 packed measurements in df1..df9
+
 ### calculating standard deviation on measurements
 sd1,..sd9  <- contains the standard deviations of 128 packed measurements in df1..df9
 ### packing the final dataframe colums up
-ans also column names, which makes datframe df more redable.
-- here we accomplished task 4
+ads also column names, which makes datframe df more redable.<br>
+here we accomplished task 4
 ### generating averages for each subject/activity
 In nested loop we take possible subjects from 1 to 30, and<br>
 possible activities (1-6) for each subject. <br>
--- select part of (main) dataframe df belonging to the given sub/act pair. <br>
---- average the colums into the row of "outdf"<br>
----  rbind  the new row into outdf, if sub/act pair exists.<br>
+select part of (main) dataframe df belonging to the given sub/act pair. <br>
+average the colums into the row of "outdf"<br>
+rbind  the new row into outdf, if sub/act pair exists.<br>
 ### writing outfile.txt
 merging act_name back to df and outdf which has to getting rid before average calculation, for technical reasosns 
 

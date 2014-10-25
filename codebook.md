@@ -38,7 +38,7 @@ rows:<br>
 ...type:num........mean of total acceleration in "z" direction, for 128 consequtive measurement<br><br>
 ###stdev_tot_acc_x<br>
 ...type:num........standard deviation of total acceleration in "x" direction, for 128 consequtive measurement<br><br>
-mean_tot_acc_y<br>
+###mean_tot_acc_y<br>
 ..........type:num........mean of total acceleration in "y" direction, for 128 consequtive measurement<br><br>
 ###stdev_tot_acc_y<br>
 ...type:num........standard deviation of total acceleration in "y" direction, for 128 consequtive measurement<br><br>

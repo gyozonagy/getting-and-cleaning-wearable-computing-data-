@@ -86,7 +86,7 @@ for (act in 1:6)  {
         outdf <- rbind(outdf,mean_act_sub)
     }
 }}
-outdf = outdf[-1,]
+outdf = outdf[-1,]  
 outdf <- merge(outdf,acti_labels)
 
 write.table(outdf, file = "outfile.txt",row.name=FALSE)

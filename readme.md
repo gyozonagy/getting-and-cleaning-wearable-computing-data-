@@ -8,7 +8,7 @@ files we read: subject, activity, acivity_labels, and the 9 sensory datafiles fr
 ### rbinding test and train dataframes
 we produce:<br>
 df_acti -- for activities, merged with activity labels<br>
-df_subj -- for measured subjects
+df_subj -- for measured subjects<br><br>
 df1 --  test1 + train1 -- /body_acc_x measurement data/<br>
 df2 --  test2 + train2 -- /body_acc_y measurement data/<br>
 df3 --  test3 + train3 -- /body_acc_z measurement data/<br><br>
